@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipe App</title>
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Recipe App</h1>
+    </header>
+    <div class="container">
+      <div class="content content-edit">
+        <a href="./index.html" class="go-back">Go Back</a>
+        <h2>Edit Recipe</h2>
+        <span id="last-edited"></span>
+        <input type="text" name="recipe-name" id="recipe-name" class="input" />
+        <textarea
+          name="instructions"
+          id="instructions"
+          class="textarea"
+        ></textarea>
+
+        <h3>Ingredients Checklist:</h3>
+        <div id="ingredients"></div>
+
+        <form id="ingredients-form">
+          <div class="add-ingredient-field">
+            <input
+              type="text"
+              name="newIngredient"
+              id="newIngredient"
+              class="input"
+            />
+            <button id="add-ingredient" class="button">Add Ingredient</button>
+          </div>
+        </form>
+
+        <div class="danger-zone">
+          <h4>Danger Zone:</h4>
+          <button id="delete-recipe" class="button button--danger">
+            Delete Recipe
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created by Michael Broome. A follow up project from the course:
+        <a href="https://www.udemy.com/course/modern-javascript/"
+          >The Modern Javascript Bootcamp by Andrew Mead</a
+        >.
+      </p>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@edgarraw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Edgar Castrejon</a
+        >
+        on Unsplash.
+      </p>
+    </footer>
+
+    <script src="./scripts/edit-bundle.js"></script>
+  </body>
+</html>

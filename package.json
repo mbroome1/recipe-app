@@ -1,0 +1,23 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "Recipe App , a recommended project after completing The Modern Javascript Bootcamp course by Andrew Mead via Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Michael Broome",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "moment": "^2.24.0",
+    "uuid-v4": "^0.1.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.0"
+  }
+}
