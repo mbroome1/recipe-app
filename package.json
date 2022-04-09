@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "uuid-v4": "^0.1.0",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
